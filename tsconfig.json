@@ -1,0 +1,35 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"target": "ESNext",
+		"module": "ESNext",
+		"experimentalDecorators": true,
+		"useDefineForClassFields": true,
+		"moduleResolution": "NodeNext",
+		"strictFunctionTypes": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+		"allowJs": true,
+		"checkJs": false,
+		"noEmit": false,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false,
+		"noImplicitReturns": true,
+		"noImplicitAny": true,
+		"skipLibCheck": true,
+		"sourceMap": true,
+		"lib": ["ESNext"],
+		"outDir": "build",
+		"baseUrl": ".",
+		"paths": {
+			"@/*": ["src/*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "build"],
+	"ts-node": {
+		"esm": true
+	}
+}
